@@ -1,0 +1,8 @@
+import turtle as  t
+t.setup(400,400,800,200)
+t.pensize(10)
+t.pencolor("gold")
+number=input("请输入你想要的正多边形边数")
+for i in range(1,(eval(number)+1)):
+    t.fd(50)
+    t.seth(360/eval(number)*i)
